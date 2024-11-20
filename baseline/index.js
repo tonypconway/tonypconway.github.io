@@ -161,8 +161,6 @@ export function getBaselineVersionsArrayWithDownstream() {
     }
   });
 
-  console.log(chromeVersions);
-
   downstreamBrowsers.forEach(browser => {
     Object.entries(bcd.browsers[browser].releases).filter(([version, details]) => {
       {
@@ -212,6 +210,5 @@ export function getBaselineCSV(includeDownstream = false) {
     csv += `"${version.browser}","${version.version}","${version.release_date}","${version.baseline_wa_compatible}","${version.baseline_year_compatible}"\n`;
   });
 
-  console.log(csv);
   return csv;
 }
