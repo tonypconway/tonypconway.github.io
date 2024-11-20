@@ -1,0 +1,15 @@
+{
+  "name": "calc-baseline-years",
+  "version": "1.0.0",
+  "description": "Utility for creating a mapping of calendar years to browser versions in baseline core browser set",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tony Conway",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@mdn/browser-compat-data": "latest"
+  },
+  "type": "module"
+}
