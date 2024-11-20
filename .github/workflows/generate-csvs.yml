@@ -25,6 +25,7 @@ jobs:
 
     - name: Run generate-csvs script
       run: |
+        cd baseline
         npm run generate-csvs
 
     - name: Commit and push changes
