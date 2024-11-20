@@ -19,7 +19,9 @@ jobs:
         node-version: '16'
 
     - name: Install dependencies
-      run: npm install
+      run: |
+        cd baseline
+        npm install
 
     - name: Run generate-csvs script
       run: |
