@@ -4,7 +4,8 @@
   "description": "Utility for creating a mapping of calendar years to browser versions in baseline core browser set",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-csvs": "node ./baseline/generate-csvs.js"
   },
   "author": "Tony Conway",
   "license": "Apache-2.0",
