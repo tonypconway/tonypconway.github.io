@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "generate-csvs": "node ./baseline/generate-csvs.js"
+    "generate-csvs": "node ./generate-csvs.js"
   },
   "author": "Tony Conway",
   "license": "Apache-2.0",
