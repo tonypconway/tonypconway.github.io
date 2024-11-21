@@ -2,11 +2,7 @@
 
 This folder contains useful data for developers using Web Platform Baseline as a development target.
 
-## Baseline Version CSVs
-
-The `csv` subfolder contains three files:
-
-### `core.csv`
+## [`csv/core.csv`](csv/core.csv)
 
 This CSV file lists out all the versions of the Baseline core browser set since 2015[^1] in the following columns:
 
@@ -18,7 +14,7 @@ This CSV file lists out all the versions of the Baseline core browser set since 
 
 [^1]: For more information on Web Platform Baseline, see [MDN](https://developer.mozilla.org/en-US/docs/Glossary/Baseline/Compatibility).
 
-### `core-with-downstream.csv`
+## [`csv/core-with-downstream.csv`](csv/core-with-downstream.csv)
 
 This CSV file contains all the same information as the `core.csv` file and adds the following columns:
 
@@ -37,10 +33,10 @@ This data is pulled from two sources:
   - UC Browser
   - QQ Browser
 
-### `manifest.json`
+## [`csv/manifest.json`](csv/manifest.json)
 
 A JSON object that contains the `lastModified` date for the CSVs in the folder. The CSVs are regenerated daily using the latest version of `browser-compat-data` and the last 7 days of new user agents from [useragents.io](http://useragents.io).
 
-## `downstream-browsers` directory
+## [`downstream-browsers/downstream-browsers.json`](downstream-browsers/downstream-browsers.json)
 
 This folder contains data on the versions of Chromium implemented by browsers not already reflected in MDN's `browser-compat-data`. This data is based on user agents strings gathered by [useragents.io](http://useragents.io) and parsed using RegEx. This data is refreshed daily based on the last 7 days of user agent strings for the tracked browsers.
