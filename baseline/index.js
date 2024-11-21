@@ -1,4 +1,5 @@
 import bcd from '@mdn/browser-compat-data' assert { type: 'json' };
+import otherDownstream from './downstream-browsers/output.json' assert { type: 'json' }
 
 // https://github.com/web-platform-dx/web-features/blob/main/docs/baseline.md#core-browser-set
 const browsers = [
@@ -147,7 +148,7 @@ export function getBaselineVersionsArray() {
 
 export function getBaselineVersionsArrayWithDownstream() {
   let browsersArray = getBaselineVersionsArray();
-  const downstreamBrowsers = [
+  const mdnDownstreamBrowsers = [
     'opera_android',
     'opera',
     'samsunginternet_android',
@@ -155,13 +156,19 @@ export function getBaselineVersionsArrayWithDownstream() {
     'oculus'
   ];
 
+  const otherDownstreamBrowsers = Object.keys(otherDownstream.browsers);
+
+  console.log(otherDownstreamBrowsers);
+
   let chromeVersions = browsersArray.filter(version => {
     if (version.browser === 'chrome') {
       return version
     }
   });
 
-  downstreamBrowsers.forEach(browser => {
+  let downstreamBrowsersArray = new Array();
+
+  mdnDownstreamBrowsers.forEach(browser => {
     Object.entries(bcd.browsers[browser].releases).filter(([version, details]) => {
       {
         if (!['current', 'esr', 'retired'].includes(details.status)) {
@@ -173,11 +180,20 @@ export function getBaselineVersionsArrayWithDownstream() {
         if (details.engine != 'Blink') {
           return false;
         }
-        return [version, details];
+        downstreamBrowsersArray.push([browser, version, details]);
       }
-    }).forEach(([version, details]) => {
+    })
+  });
 
-      details.engine_version;
+  otherDownstreamBrowsers.forEach(browser => {
+    console.log(browser);
+    Object.entries(otherDownstream.browsers[browser].releases).forEach(([version, details]) => {
+      downstreamBrowsersArray.push([browser, version, details])
+    })
+  });
+
+  downstreamBrowsersArray
+    .forEach(([browser, version, details]) => {
 
       let mappedVersion = chromeVersions.find(chromeVersion => chromeVersion.version === details.engine_version);
 
@@ -187,27 +203,38 @@ export function getBaselineVersionsArrayWithDownstream() {
           version: version,
           release_date: details.release_date,
           baseline_wa_compatible: mappedVersion.baseline_wa_compatible,
-          baseline_year_compatible: mappedVersion.baseline_year_compatible
+          baseline_year_compatible: mappedVersion.baseline_year_compatible,
+          engine: details.engine,
+          engine_version: details.engine_version
         });
       }
 
-
     });
-  });
 
   return browsersArray;
 
 }
 
 export function getBaselineCSV(includeDownstream = false) {
-  let csv = '"browser","version","release_date","baseline_wa_compatible","baseline_year_compatible"\n';
+  let csv = '"browser","version","release_date","baseline_wa_compatible","baseline_year_compatible"';
+
+  if (includeDownstream) {
+    csv += ',"engine","engine_version"'
+  }
+
+  csv += '\n'
 
   let versionArray = includeDownstream
     ? getBaselineVersionsArrayWithDownstream()
     : getBaselineVersionsArray();
 
   versionArray.forEach((version) => {
-    csv += `"${version.browser}","${version.version}","${version.release_date}","${version.baseline_wa_compatible}","${version.baseline_year_compatible}"\n`;
+    csv += `"${version.browser}","${version.version}","${version.release_date}","${version.baseline_wa_compatible}","${version.baseline_year_compatible}"`;
+    if (version.engine_version) {
+      csv += `,"${version.engine}","${version.engine_version}"\n`
+    } else {
+      csv += `,,\n`
+    }
   });
 
   return csv;
