@@ -1,5 +1,5 @@
 import bcd from '@mdn/browser-compat-data' assert { type: 'json' };
-import otherDownstream from './downstream-browsers/output.json' assert { type: 'json' }
+import otherDownstream from './downstream-browsers/downstream-browsers.json' assert { type: 'json' }
 
 // https://github.com/web-platform-dx/web-features/blob/main/docs/baseline.md#core-browser-set
 const browsers = [
