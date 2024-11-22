@@ -232,9 +232,10 @@ export function getBaselineCSV(includeDownstream = false) {
     csv += `"${version.browser}","${version.version}","${version.release_date}","${version.baseline_wa_compatible}","${version.baseline_year_compatible}"`;
     if (version.engine_version) {
       csv += `,"${version.engine}","${version.engine_version}"\n`
-    } else {
+    } else if (includeDownstream) {
       csv += `,,\n`
-    }
+    } else {
+      csv += `\n`
   });
 
   return csv;
