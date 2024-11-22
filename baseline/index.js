@@ -236,6 +236,7 @@ export function getBaselineCSV(includeDownstream = false) {
       csv += `,,\n`
     } else {
       csv += `\n`
+    }
   });
 
   return csv;
