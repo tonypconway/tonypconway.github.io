@@ -12,8 +12,6 @@ const handleUas = (uaObject) => {
 
   const existingData = JSON.parse(fs.readFileSync('./downstream-browsers/downstream-browsers.json', { encoding: 'utf8' }));
 
-  console.log(existingData);
-
   const versionMappings = new Object();
 
   const browsers = [
@@ -76,6 +74,8 @@ if (process.argv.length === 2) {
   console.error('Expected at least one argument!');
   process.exit(1);
 } else {
+
+  console.log("key = ", process.argv[2])
   const options = {
     hostname: 'api.useragents.io',
     port: 443,
