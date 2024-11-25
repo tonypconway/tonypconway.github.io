@@ -35,7 +35,7 @@ This data is pulled from two sources:
 
 ## [`csv/manifest.json`](csv/manifest.json)
 
-A JSON object that contains the `lastModified` date for the CSVs in the folder. The CSVs are regenerated daily using the latest version of `browser-compat-data` and the last 7 days of new user agents from [useragents.io](http://useragents.io).
+A JSON object that contains the `lastModified` date for the CSVs in the folder. The CSVs are regenerated daily using the latest version of `browser-compat-data` and the content of [`downstream-browsers.json`](downstream-browsers/downstream-browsers.json).
 
 ## [`downstream-browsers/downstream-browsers.json`](downstream-browsers/downstream-browsers.json)
 
