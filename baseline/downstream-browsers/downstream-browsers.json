@@ -466,6 +466,12 @@
           "engine_version": "109",
           "status": "unknown",
           "release_date": "2024-10-24"
+        },
+        "15.7": {
+          "engine": "Blink",
+          "engine_version": "109",
+          "status": "unknown",
+          "release_date": "2024-11-23"
         }
       }
     },
@@ -749,8 +755,15 @@
           "engine_version": "100",
           "status": "unknown",
           "release_date": "2024-09-26"
+        },
+        "17.2": {
+          "engine": "Blink",
+          "engine_version": "100",
+          "status": "unknown",
+          "release_date": "2024-11-19"
         }
       }
     }
-  }
+  },
+  "lastUpdated": "2024-11-25T12:39:44.295Z"
 }
