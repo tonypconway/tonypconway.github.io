@@ -24,11 +24,11 @@ jobs:
         npm install
 
     - name: Run refresh-downstream script
-      env:
-        USERAGENTSIOKEY: ${ secrets.USERAGENTSIOKEY }
+      # env:
+      #   USERAGENTSIOKEY: ${ secrets.USERAGENTSIOKEY }
       run: |
         cd baseline
-        node refresh-downstream.js $USERAGENTSIOKEY
+        node refresh-downstream.js ${{secrets.USERAGENTSIOKEY}}
         cat ./downstream-browsers/downstream-browsers.json
 
     # - name: Commit and push changes
