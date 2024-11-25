@@ -1,4 +1,4 @@
-name: Generate CSVs
+name: Refresh downstream-browsers.json
 
 on:
   schedule:
