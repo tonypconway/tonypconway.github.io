@@ -28,7 +28,7 @@ jobs:
         USERAGENTSIOKEY: ${ secrets.USERAGENTSIOKEY }
       run: |
         cd baseline
-        node refresh-downstream.js USERAGENTSIOKEY
+        node refresh-downstream.js $USERAGENTSIOKEY
         cat ./downstream-browsers/downstream-browsers.json
 
     # - name: Commit and push changes
