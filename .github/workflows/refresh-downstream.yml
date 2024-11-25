@@ -30,8 +30,16 @@ jobs:
 
     - name: Commit and push changes
       run: |
-        git config --global user.name 'github-actions[bot]'
-        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add .
-        git commit -m 'Updating downstream-browsers'
-        git push origin main
+        #!/bin/bash
+
+        if [[ -n "$(git diff)" ]]; then
+          echo "changes have occurred, committing to main"
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add .
+          git commit -m 'Updating downstream-browsers'
+          git push origin main
+        else
+          echo "no changes made, doing nothing"
+        fi
+        
