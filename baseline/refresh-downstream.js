@@ -75,7 +75,6 @@ if (process.argv.length === 2) {
   process.exit(1);
 } else {
 
-  console.log("key = ", process.argv[2])
   const options = {
     hostname: 'api.useragents.io',
     port: 443,
@@ -92,8 +91,7 @@ if (process.argv.length === 2) {
   https.request(options, (res) => {
 
     let output = [];
-    // console.log('status code: ', res.statusCode)
-    // console.log('headers: ', res.headers)
+    console.log('status code: ', res.statusCode)
     res.on('data', (d) => {
       output.push(d);
     });
