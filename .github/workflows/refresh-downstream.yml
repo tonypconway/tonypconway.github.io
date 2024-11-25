@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  generate-csvs:
+  refresh-downstream-browsers:
     runs-on: ubuntu-latest
 
     steps:
