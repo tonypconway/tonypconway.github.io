@@ -82,6 +82,7 @@
 "chrome","129","2024-09-17","true","2023",,
 "chrome","130","2024-10-15","true","2023",,
 "chrome","131","2024-11-12","true","2024",,
+"chrome","132","2025-01-14","true","2025",,
 "chrome_android","48","2016-01-26","false","2015",,
 "chrome_android","49","2016-03-09","false","2015",,
 "chrome_android","50","2016-04-13","false","2015",,
@@ -165,6 +166,7 @@
 "chrome_android","129","2024-09-17","true","2023",,
 "chrome_android","130","2024-10-15","true","2023",,
 "chrome_android","131","2024-11-12","true","2024",,
+"chrome_android","132","2025-01-14","true","2025",,
 "edge","14","2016-08-02","false","2016",,
 "edge","15","2017-04-05","false","2016",,
 "edge","16","2017-10-17","false","2017",,
@@ -312,6 +314,7 @@
 "firefox","131","2024-10-01","true","2023",,
 "firefox","132","2024-10-29","true","2023",,
 "firefox","133","2024-11-26","true","2024",,
+"firefox","134","2025-01-07","true","2025",,
 "firefox_android","44","2016-01-26","false","2015",,
 "firefox_android","45","2016-03-08","false","2015",,
 "firefox_android","46","2016-04-26","false","2015",,
@@ -392,6 +395,7 @@
 "firefox_android","131","2024-10-01","true","2023",,
 "firefox_android","132","2024-10-29","true","2023",,
 "firefox_android","133","2024-11-26","true","2024",,
+"firefox_android","134","2025-01-07","true","2025",,
 "safari","9.1","2016-03-21","false","2015",,
 "safari","10","2016-09-20","false","2016",,
 "safari","10.1","2017-03-27","false","2016",,
@@ -713,6 +717,7 @@
 "webview_android","129","2024-09-17","true","2023","Blink","129"
 "webview_android","130","2024-10-15","true","2023","Blink","130"
 "webview_android","131","2024-11-12","true","2024","Blink","131"
+"webview_android","132","2025-01-14","true","2025","Blink","132"
 "oculus","10.0","undefined","false","2019","Blink","83"
 "oculus","11.0","undefined","false","2019","Blink","84"
 "oculus","12.0","undefined","false","2019","Blink","86"
