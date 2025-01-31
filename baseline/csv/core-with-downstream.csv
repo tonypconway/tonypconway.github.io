@@ -82,7 +82,8 @@
 "chrome","129","2024-09-17","true","2023",,
 "chrome","130","2024-10-15","true","2023",,
 "chrome","131","2024-11-12","true","2024",,
-"chrome","132","2025-01-14","true","2025",,
+"chrome","132","2025-01-14","true","2024",,
+"chrome","133","2025-02-04","true","2025",,
 "chrome_android","48","2016-01-26","false","2015",,
 "chrome_android","49","2016-03-09","false","2015",,
 "chrome_android","50","2016-04-13","false","2015",,
@@ -166,7 +167,8 @@
 "chrome_android","129","2024-09-17","true","2023",,
 "chrome_android","130","2024-10-15","true","2023",,
 "chrome_android","131","2024-11-12","true","2024",,
-"chrome_android","132","2025-01-14","true","2025",,
+"chrome_android","132","2025-01-14","true","2024",,
+"chrome_android","133","2025-02-04","true","2025",,
 "edge","14","2016-08-02","false","2016",,
 "edge","15","2017-04-05","false","2016",,
 "edge","16","2017-10-17","false","2017",,
@@ -518,6 +520,7 @@
 "opera_android","84","2024-08-26","true","2023","Blink","127"
 "opera_android","85","2024-10-29","true","2023","Blink","128"
 "opera_android","86","2024-12-02","true","2023","Blink","130"
+"opera_android","87","2025-01-22","true","2024","Blink","132"
 "opera","35","2016-02-02","false","2015","Blink","48"
 "opera","36","2016-03-15","false","2015","Blink","49"
 "opera","37","2016-05-04","false","2015","Blink","50"
@@ -597,6 +600,7 @@
 "opera","113","2024-08-22","true","2023","Blink","127"
 "opera","114","2024-09-25","true","2023","Blink","128"
 "opera","115","2024-11-27","true","2023","Blink","130"
+"opera","116","2025-01-08","true","2024","Blink","131"
 "samsunginternet_android","10.0","2019-08-22","false","2018","Blink","71"
 "samsunginternet_android","10.2","2019-10-09","false","2018","Blink","71"
 "samsunginternet_android","11.0","2019-12-05","false","2018","Blink","75"
@@ -720,7 +724,8 @@
 "webview_android","129","2024-09-17","true","2023","Blink","129"
 "webview_android","130","2024-10-15","true","2023","Blink","130"
 "webview_android","131","2024-11-12","true","2024","Blink","131"
-"webview_android","132","2025-01-14","true","2025","Blink","132"
+"webview_android","132","2025-01-14","true","2024","Blink","132"
+"webview_android","133","2025-02-04","true","2025","Blink","133"
 "oculus","10.0","undefined","false","2019","Blink","83"
 "oculus","11.0","undefined","false","2019","Blink","84"
 "oculus","12.0","undefined","false","2019","Blink","86"
