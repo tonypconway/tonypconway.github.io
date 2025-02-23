@@ -288,7 +288,7 @@
 "firefox","101","2022-05-31","false","2021",,
 "firefox","102","2022-06-28","false","2021",,
 "firefox","103","2022-07-26","false","2021",,
-"firefox","104","2022-08-23","true","2021",,
+"firefox","104","2022-08-23","false","2021",,
 "firefox","105","2022-09-20","true","2021",,
 "firefox","106","2022-10-18","true","2021",,
 "firefox","107","2022-11-15","true","2021",,
@@ -370,7 +370,7 @@
 "firefox_android","101","2022-05-31","false","2021",,
 "firefox_android","102","2022-06-28","false","2021",,
 "firefox_android","103","2022-07-26","false","2021",,
-"firefox_android","104","2022-08-23","true","2021",,
+"firefox_android","104","2022-08-23","false","2021",,
 "firefox_android","105","2022-09-20","true","2021",,
 "firefox_android","106","2022-10-18","true","2021",,
 "firefox_android","107","2022-11-15","true","2021",,
@@ -818,6 +818,7 @@
 "QQBrowser","15.7","2024-11-23","true","2022","Blink","109"
 "QQBrowser","15.8","2024-12-11","true","2022","Blink","109"
 "QQBrowser","15.9","2025-02-01","true","2022","Blink","109"
+"QQBrowser","16.0","2025-02-22","true","2022","Blink","109"
 "UCBrowser","11.8","unknown","false","2016","Blink","57"
 "UCBrowser","11.9","unknown","false","2016","Blink","57"
 "UCBrowser","12.0","unknown","false","2016","Blink","57"
