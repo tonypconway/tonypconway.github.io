@@ -55,7 +55,7 @@
 "chrome","102","2022-05-24","false","2021",,
 "chrome","103","2022-06-21","false","2021",,
 "chrome","104","2022-08-02","false","2021",,
-"chrome","105","2022-09-02","true","2021",,
+"chrome","105","2022-09-02","false","2021",,
 "chrome","106","2022-09-27","true","2021",,
 "chrome","107","2022-10-25","true","2021",,
 "chrome","108","2022-11-29","true","2022",,
@@ -140,7 +140,7 @@
 "chrome_android","102","2022-05-24","false","2021",,
 "chrome_android","103","2022-06-21","false","2021",,
 "chrome_android","104","2022-08-02","false","2021",,
-"chrome_android","105","2022-09-02","true","2021",,
+"chrome_android","105","2022-09-02","false","2021",,
 "chrome_android","106","2022-09-27","true","2021",,
 "chrome_android","107","2022-10-25","true","2021",,
 "chrome_android","108","2022-11-29","true","2022",,
@@ -578,7 +578,7 @@
 "opera","88","2022-06-08","false","2021","Blink","102"
 "opera","89","2022-07-07","false","2021","Blink","103"
 "opera","90","2022-08-18","false","2021","Blink","104"
-"opera","91","2022-09-14","true","2021","Blink","105"
+"opera","91","2022-09-14","false","2021","Blink","105"
 "opera","92","2022-10-19","true","2021","Blink","106"
 "opera","93","2022-11-17","true","2021","Blink","107"
 "opera","94","2022-12-15","true","2022","Blink","108"
@@ -700,7 +700,7 @@
 "webview_android","102","2022-05-24","false","2021","Blink","102"
 "webview_android","103","2022-06-21","false","2021","Blink","103"
 "webview_android","104","2022-08-02","false","2021","Blink","104"
-"webview_android","105","2022-09-02","true","2021","Blink","105"
+"webview_android","105","2022-09-02","false","2021","Blink","105"
 "webview_android","106","2022-09-27","true","2021","Blink","106"
 "webview_android","107","2022-10-25","true","2021","Blink","107"
 "webview_android","108","2022-11-29","true","2022","Blink","108"
@@ -819,6 +819,7 @@
 "QQBrowser","15.8","2024-12-11","true","2022","Blink","109"
 "QQBrowser","15.9","2025-02-01","true","2022","Blink","109"
 "QQBrowser","16.0","2025-02-22","true","2022","Blink","109"
+"QQBrowser","17.4","2025-03-02","true","2023","Blink","123"
 "UCBrowser","11.8","unknown","false","2016","Blink","57"
 "UCBrowser","11.9","unknown","false","2016","Blink","57"
 "UCBrowser","12.0","unknown","false","2016","Blink","57"
