@@ -91,7 +91,8 @@
 "chrome","138","2025-06-24","true","2024",,
 "chrome","139","2025-08-05","true","2024",,
 "chrome","140","2025-09-02","true","2024",,
-"chrome","141","2025-09-30","true","2025",,
+"chrome","141","2025-09-30","true","2024",,
+"chrome","142","2025-10-28","true","2025",,
 "chrome_android","48","2016-01-26","false","2015",,
 "chrome_android","49","2016-03-09","false","2015",,
 "chrome_android","50","2016-04-13","false","2015",,
@@ -184,7 +185,8 @@
 "chrome_android","138","2025-06-24","true","2024",,
 "chrome_android","139","2025-08-05","true","2024",,
 "chrome_android","140","2025-09-02","true","2024",,
-"chrome_android","141","2025-09-30","true","2025",,
+"chrome_android","141","2025-09-30","true","2024",,
+"chrome_android","142","2025-10-28","true","2025",,
 "edge","14","2016-08-02","false","2016",,
 "edge","15","2017-04-05","false","2016",,
 "edge","16","2017-10-17","false","2017",,
@@ -798,7 +800,8 @@
 "webview_android","138","2025-06-24","true","2024","Blink","138"
 "webview_android","139","2025-08-05","true","2024","Blink","139"
 "webview_android","140","2025-09-02","true","2024","Blink","140"
-"webview_android","141","2025-09-30","true","2025","Blink","141"
+"webview_android","141","2025-09-30","true","2024","Blink","141"
+"webview_android","142","2025-10-28","true","2025","Blink","142"
 "oculus","10.0","undefined","false","2019","Blink","83"
 "oculus","11.0","undefined","false","2019","Blink","84"
 "oculus","12.0","undefined","false","2019","Blink","86"
