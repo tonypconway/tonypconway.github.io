@@ -900,6 +900,7 @@
 "QQBrowser","17.8","2025-07-30","true","2023","Blink","123"
 "QQBrowser","18.0","2025-08-17","true","2023","Blink","123"
 "QQBrowser","18.1","2025-10-04","true","2023","Blink","123"
+"QQBrowser","18.2","2025-11-04","true","2023","Blink","123"
 "UCBrowser","11.8","unknown","false","2016","Blink","57"
 "UCBrowser","11.9","unknown","false","2016","Blink","57"
 "UCBrowser","12.0","unknown","false","2016","Blink","57"
@@ -945,3 +946,4 @@
 "UCBrowser","17.8","2025-07-30","true","2023","Blink","123"
 "UCBrowser","18.0","2025-08-17","true","2023","Blink","123"
 "UCBrowser","18.1","2025-10-04","true","2023","Blink","123"
+"UCBrowser","18.2","2025-11-04","true","2023","Blink","123"
