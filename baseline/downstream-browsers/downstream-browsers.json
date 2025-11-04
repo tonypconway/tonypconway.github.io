@@ -532,6 +532,12 @@
           "engine_version": "123",
           "status": "unknown",
           "release_date": "2025-10-04"
+        },
+        "18.2": {
+          "engine": "Blink",
+          "engine_version": "123",
+          "status": "unknown",
+          "release_date": "2025-11-04"
         }
       }
     },
@@ -869,9 +875,15 @@
           "engine_version": "123",
           "status": "unknown",
           "release_date": "2025-10-04"
+        },
+        "18.2": {
+          "engine": "Blink",
+          "engine_version": "123",
+          "status": "unknown",
+          "release_date": "2025-11-04"
         }
       }
     }
   },
-  "lastUpdated": "2025-10-04T14:03:45.669Z"
+  "lastUpdated": "2025-11-04T14:04:56.859Z"
 }
