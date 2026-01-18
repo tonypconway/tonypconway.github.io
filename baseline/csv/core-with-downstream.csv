@@ -65,7 +65,7 @@
 "chrome","112","2023-04-04","false","2022",,
 "chrome","113","2023-05-02","false","2022",,
 "chrome","114","2023-05-30","false","2022",,
-"chrome","115","2023-07-18","true","2022",,
+"chrome","115","2023-07-18","false","2022",,
 "chrome","116","2023-08-15","true","2022",,
 "chrome","117","2023-09-12","true","2022",,
 "chrome","118","2023-10-10","true","2022",,
@@ -583,7 +583,7 @@
 "opera_android","74","2023-03-13","false","2022","Blink","110"
 "opera_android","75","2023-05-17","false","2022","Blink","112"
 "opera_android","76","2023-06-26","false","2022","Blink","114"
-"opera_android","77","2023-08-31","true","2022","Blink","115"
+"opera_android","77","2023-08-31","false","2022","Blink","115"
 "opera_android","78","2023-10-23","true","2022","Blink","117"
 "opera_android","79","2023-12-06","true","2022","Blink","119"
 "opera_android","80","2024-01-25","true","2023","Blink","120"
@@ -665,7 +665,7 @@
 "opera","98","2023-04-20","false","2022","Blink","112"
 "opera","99","2023-05-16","false","2022","Blink","113"
 "opera","100","2023-06-29","false","2022","Blink","114"
-"opera","101","2023-07-26","true","2022","Blink","115"
+"opera","101","2023-07-26","false","2022","Blink","115"
 "opera","102","2023-08-23","true","2022","Blink","116"
 "opera","103","2023-10-03","true","2022","Blink","117"
 "opera","104","2023-10-23","true","2022","Blink","118"
@@ -709,7 +709,7 @@
 "samsunginternet_android","20.0","2023-02-10","false","2021","Blink","106"
 "samsunginternet_android","21.0","2023-05-19","false","2022","Blink","110"
 "samsunginternet_android","22.0","2023-07-14","false","2022","Blink","111"
-"samsunginternet_android","23.0","2023-10-18","true","2022","Blink","115"
+"samsunginternet_android","23.0","2023-10-18","false","2022","Blink","115"
 "samsunginternet_android","24.0","2024-01-25","true","2022","Blink","117"
 "samsunginternet_android","25.0","2024-04-24","true","2023","Blink","121"
 "samsunginternet_android","26.0","2024-06-07","true","2023","Blink","122"
@@ -796,7 +796,7 @@
 "webview_android","112","2023-04-04","false","2022","Blink","112"
 "webview_android","113","2023-05-02","false","2022","Blink","113"
 "webview_android","114","2023-05-30","false","2022","Blink","114"
-"webview_android","115","2023-07-21","true","2022","Blink","115"
+"webview_android","115","2023-07-21","false","2022","Blink","115"
 "webview_android","116","2023-08-15","true","2022","Blink","116"
 "webview_android","117","2023-09-12","true","2022","Blink","117"
 "webview_android","118","2023-10-10","true","2022","Blink","118"
